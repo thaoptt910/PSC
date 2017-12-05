@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trang chủ - PSC</title>
+    <link rel="shortcut icon" type="image/png" href="resources/imgs/favicons-PSC.png" />
+
+    <!-- Bootstrap -->
+    <link href="vendors/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendors/css/font-awesome.min.css" rel="stylesheet">
+    <!-- smartmenu -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/sm-core-css.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/sm-simple.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/full-slider.css">
+
+    <!-- nivo slider -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/themes/default/default.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/themes/light/light.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/themes/dark/dark.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/themes/bar/bar.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/nivo-slider.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+
+</head>
+
+<body>
+    <div id="page">
+        <nav id="main-nav" role="navigation" class="navbar-fixed-top">
+            <div class="container">
+                <div class="img-logo col-md-2">
+                    <a href="#"><img src="resources/imgs/logo-nav.png">
+                    </a>
+                </div>
+                <!-- /.img-logo -->
+                <div class="navbar-header">
+                    <button style="float: left;" id="btn_menu" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar" style="background-color: #fff;"></span>
+                        <span class="icon-bar" style="background-color: #fff;"></span>
+                        <span class="icon-bar" style="background-color: #fff;"></span>
+                    </button>
+                </div>
+                <ul id="main-menu" class="sm sm-simple col-md-8">
+                    <li><a href="gioithieu.html">Giới thiệu</a>
+                    </li>
+                    <li class="father-menu"><a href="product.html">Sản phẩm</a>
+                        <ul class="child-menu">
+                            <li><a href="#">Themes</a>
+                            </li>
+                            <li><a href="#">The company</a>
+                                <ul>
+                                    <li><a href="#">About Vadikom</a>
+                                    </li>
+                                    <li><a href="#">Projects</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="father-menu"><a href="product.html">Dịch vụ</a>
+                        <ul class="child-menu">
+                            <li><a href="#">PSC Z39.50 Virtual Union Catalog</a>
+                            </li>
+                            <li><a href="#">PSC HR Gateway</a>
+                            </li>
+                            <li><a href="#">PSC Open Content Gateway</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="product.html">Khách hàng</a>
+                    </li>
+                    <li><a href="active.html">Hoạt động</a>
+                        <ul>
+                            <li><a href="#">Premium support</a>
+                                <ul>
+                                    <li><a href="#">About Vadikom</a>
+                                    </li>
+                                    <li><a href="#">Projects</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Forums</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="list-recruitment.html">Tuyển dụng</a>
+                    </li>
+                    <li><a href="lien-lac.html">Liên lạc</a>
+                    </li>
+                </ul>
+                <div id="language" class="dropdown dropdown-small ">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#" aria-expanded="false">
+                        <img src="resources/imgs/icon-vietnamese.png">
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li>
+                            <a href="#"><img src="resources/imgs/english.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <div style="z-index: 9999;" class="searchbox">
+                        <input type="search" placeholder="Tìm kiếm......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+
+                        <span class="searchbox-icon"><img src="resources/imgs/btn-search.png"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </nav>
+    </div>
+    <!-- ./page -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('resources/imgs/background.jpg');height: 620px;"></div>
+                <div class="carousel-caption container" style="text-align: left !important;">
+
+                    <div class="img col-md-offset-4 col-md-2 col-sm-offset-4 col-sm-2 col-xs-offset-4 col-xs-2">
+                        <img src="resources/imgs/logo-banner-new.png" style="width: 100%;" />
+                    </div>
+
+                    <div class="text1 col-md-offset-6 col-md-2 col-sm-offset-6 col-sm-3 col-xs-offset-6 col-xs-5" style="height:20%;position: relative;">
+                        <p>Pyramid </p>
+
+                        <p style="width:100%;">Software & Consulting Ltd.</p>
+                    </div>
+                    <div class="text2 col-md-offset-4 col-md-6 col-sm-offset-4 col-sm-6 col-xs-offset-4 col-xs-6" style="position: relative;height: 72px;">
+                        <p>smart thinking - smart doing</p>
+                    </div>
+                    
+
+                </div>
+            </div>
+            <div class="item">
+
+                <div class="fill" style="background-image:url('resources/imgs/background1.jpg');height: 620px;"></div>
+                <div class="carousel-caption container" style="text-align: center !important;right: 0;text-align: center !important;top: 0;left: 0;bottom: 0!important;padding-bottom: 20px!important;">
+                    <div class="text3 col-md-offset-2 col-md-6 col-sm-offset-2 col-sm-6 col-xs-offset-2 col-xs-6" style="position: relative;width: 100%;">
+                        <span>Bạn đang tìm giải pháp</span>
+                        <span> quản trị đại học ?</span>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+    <!-- /.wrapper -->
+    <div id="page">
+        <div class="PSC-solution">
+            <div class="container">
+                <div class="text">
+                    <h3>Nhà cung cấp giải pháp phần mềm hàng đầu Việt Nam</h3>
+                    <p style="margin-bottom: 0;">PSC là nhà cung cấp giải pháp hàng đầu Việt Nam trong lĩnh vực giáo dục và đào tạo.
+                    </p>
+                    <p>Đã có hơn 40 trường đại học/cao đẳng , 4 cơ sở giáo dục và trên 100 trường THPT phía nam sử dụng các sản phẩm của PSC</p>
+                </div>
+                <a class="btn btn-solution-psc " href="#">Giải pháp PSC</a>
+            </div>
+        </div>
+        <!-- /.PSC-solution -->
+        <div class="owl1">
+            <div class="container">
+                <div id="owl-demo" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="img col-xs-12 col-sm-6 col-md-6">
+                            <img src="resources/imgs/mac-psc.jpg">
+                        </div>
+                        <div class="text col-xs-12 col-sm-6 col-md-6">
+                            <div class="content-text">
+                                <img src="resources/imgs/phone.png">
+                                <p>Thiết kế responsive phù hợp với mọi thiết bị</p>
+                            </div>
+                            <div class="content-text">
+                                <img src="resources/imgs/setting.png">
+                                <p>Hệ thống giải pháp phần mềm liên kết đồng bộ hiệu quả</p>
+                            </div>
+                            <div class="content-text">
+                                <img src="resources/imgs/22.png">
+                                <p>Uy tín, chất lượng, bảo mật cao</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.item -->
+                    <div class="item">
+                        <div class="img col-xs-12 col-sm-6 col-md-6">
+                            <img src="resources/imgs/mac-psc.jpg">
+                        </div>
+                        <div class="text col-xs-12 col-sm-6 col-md-6">
+                            <div class="content-text">
+                                <img src="resources/imgs/phone.png">
+                                <p>Thiết kế responsive phù hợp với mọi thiết bị</p>
+                            </div>
+                            <div class="content-text">
+                                <img src="resources/imgs/setting.png">
+                                <p>Hệ thống giải pháp phần mềm liên kết đồng bộ hiệu quả</p>
+                            </div>
+                            <div class="content-text">
+                                <img src="resources/imgs/22.png">
+                                <p>Uy tín, chất lượng, bảo mật cao</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.item -->
+                </div>
+            </div>
+            <!-- /.conatiner -->
+        </div>
+        <!-- /.owl1 -->
+
+        <div class="software-solution">
+            <div class="container">
+                <h1>Giải pháp phần mềm</h1>
+
+                <div id="myTab">
+                    <ul class="nav nav-tabs list-software-solution">
+                        <li class="active"><a href="#web-app" data-toggle="tab">Web app</a>
+                        </li>
+                        <li><a href="#desktop-app" data-toggle="tab">Desktop app</a>
+                        </li>
+                        <li><a href="#mobile-app" data-toggle="tab">Mobile app</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="web-app">
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_011.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>Zlis - Quản lý thông tin thư viện Zlis - Quản lý thông tin thư viện Zlis - Quản lý thông tin thư viện</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_02.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>UIS Professor - App mobile Giáo viên UIS Professor - App mobile Giáo viên UIS Professor - App mobile Giáo viên</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_03.png">
+                                </div>
+                                <a href="https://translate.google.com.vn/?hl=vi&tab=wT#en/vi/at%20home">
+                                    <div class="text">
+                                        <p>PORTAL - Tạo và Quản trị web responsive</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_04.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>PSC UIS Mobie - App mobile</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_05.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>Online Admission - Form online</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_06.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>E-Office - Quản lý Dự án và văn phòng</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="desktop-app">
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_011.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>Zlis - Quản lý thông tin thư viện</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_02.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>UIS Professor - App mobile Giáo viên</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_03.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>PORTAL - Tạo và Quản trị web responsive</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_04.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>PSC UIS Mobie - App mobile</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_05.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>Online Admission - Form online</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_06.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>E-Office - Quản lý Dự án và văn phòng</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="mobile-app">
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_011.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>Zlis - Quản lý thông tin thư viện</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_02.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>UIS Professor - App mobile Giáo viên</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_03.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>PORTAL - Tạo và Quản trị web responsive</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_04.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>PSC UIS Mobie - App mobile</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_05.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>Online Admission - Form online</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class=" item col-xs-12 col-sm-6 col-md-4">
+                                <div class="img">
+                                    <img src="resources/imgs/item_06.png">
+                                </div>
+                                <a href="#">
+                                    <div class="text">
+                                        <p>E-Office - Quản lý Dự án và văn phòng</p>
+                                        <img src="resources/imgs/icon-hover-solution.png">
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- /.tab-content -->
+                </div>
+                <!-- /#myTab -->
+                <div class="clearfix"></div>
+                <a href="#" class=" btn-software-solution link-btn-software-solution">Tất cả phần mềm</a>
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.software-solution -->
+        <div class="active-news">
+            <div class="container">
+                <h2><a href="#">Tin tức hoạt động</a></h2>
+                <div class="content-item">
+                    <div class=" fix-height col-md-6 col-xs-12">
+                        <div class="item left">
+                            <h4><a href="#">PSC triển khai Hệ thống phần mềm quản trị đại học cho Trường Đại Học Tài Chính - Marketing PSC triển khai Hệ thống phần mềm quản trị đại học cho </a></h4>
+                            <p>Trường Đại Học Tài Chính - Marketing đã chọn triển khai 4 phân hệ trong hệ thống thông tin quản trị đại học PSC University ERP bao gồm: Cổng thông tin đại học (PSC University Portal), Phần mềm quản lý đào tạo theo học chế tín chỉ (PSC UIS), Phần mềm quản lý nguồn nhân lực (PSC HRM) và Phần mềm thư viện điện tử và thư viện số (PSC zLIS)Q</p>
+                        </div>
+                        <!-- /.item left -->
+                    </div>
+                    <div class=" fix-height col-md-6 col-xs-12">
+                        <div class="item right">
+                            <h4><a href="#">PSC ra mắt phiên bản mới phần mềm nhận dạng phiếu trả lời trắc nghiệm PSC superEMR 4.5</a></h4>
+                            <p> Sau hơn 5 năm có mặt trên thị trường, với hơn 200 khách hàng là các trường đại học/cao đẳng, sở giáo dục đào tạo và các trường THPT, PSC superEMR được đánh giá là một sản phẩm hoàn hảo cho công tác quản lý tổ chức và chấm thi trắc nghiệm bằng phương trắc nghiệm.</p>
+                        </div>
+                        <!-- /.item right -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.active-news -->
+        <div class="member">
+            <div class="container">
+                <div class="text">
+                    <h2>Cung cấp giải pháp phần mềm cho</h2>
+                    <p>hơn 1000 tổ chức nhà nước, giáo dục và thương mại. Các đơn vị tiêu biểu</p>
+                </div>
+                <div id="owl-demo-member" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <a href="#"><img src="resources/imgs/neu.jpg" alt="Owl Image">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="resources/imgs/tancang.jpg" alt="Owl Image">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="resources/imgs/vhu.jpg" alt="Owl Image">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="resources/imgs/hbu.jpg" alt="Owl Image">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="resources/imgs/neu.jpg" alt="Owl Image">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="resources/imgs/tancang.jpg" alt="Owl Image">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="resources/imgs/vhu.jpg" alt="Owl Image">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="resources/imgs/hbu.jpg" alt="Owl Image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.member -->
+
+        <footer>
+            <div class="container">
+                <div class="col-left col-xs-12 col-sm-6 col-md-6">
+                    <div class="img">
+                        <img src="resources/imgs/logo-footer.png">
+                    </div>
+                    <div class="text">
+                        <h2>Pyramid Software & Consulting Ltd.</h2>
+                        <p>Designed and Developed by PSC</p>
+                        <p>Copyright ©2017 by PSC. All right</p>
+                    </div>
+                </div>
+                <div class="col-right col-xs-12 col-sm-6 col-md-6">
+                    <ul class="list-inline">
+                        <li><a href="doitac.html">Đối tác</a>
+                        </li>
+                        <li><a href="#">Tuyển dụng</a>
+                        </li>
+                        <li><a href="#">Liên lạc</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.container -->
+        </footer>
+
+    </div>
+    <!-- /.page -->
+
+    <script src="vendors/js/jquery.min.js"></script>
+    <script src="vendors/js/bootstrap.min.js"></script>
+    <!-- smartmenu -->
+    <script type="text/javascript" src="vendors/js/jquery.smartmenus.js"></script>
+
+    <script type="text/javascript" src="vendors/js/owl.carousel.js"></script>
+    <script type="text/javascript">
+        // $('#myCarousel').owlCarousel({
+        //     autoplay: true,
+        //     loop: false,
+        //     nav: false,
+        //     dots: false,
+        //     slideSpeed : 300,
+        //     paginationSpeed : 400,
+        //     singleItem:true,
+        //     items : 1,
+        //     margin: 0
+        // });
+
+        // $(".carousel").owlCarousel({
+        //     autoplay:false,
+        // });
+        $('.carousel').carousel({
+          interval: 6000,
+          pause: "false"
+        });
+        $("#owl-demo").owlCarousel({
+            autoplay: true,
+            navigation : true, // Show next and prev buttons
+            slideSpeed : 300,
+            paginationSpeed : 400,
+            singleItem:true,
+            items : 1
+              
+         
+        });
+        $("#owl-demo-member").owlCarousel({
+            autoplay:true,
+            dots:false,
+            loop:true,
+            margin:10,
+            responsiveClass:true,
+            responsive:{
+                300:{
+                    items:1,
+                    nav:true
+                },
+                500:{
+                    items:2,
+                    nav:true
+                },
+                600:{
+                    items:3,
+                    nav:false
+                },
+                1000:{
+                    items:4,
+                    nav:true,
+                    loop:false
+                }
+            }
+
+        });
+    </script>
+    
+    <script type="text/javascript" src="vendors/js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript" src="resources/js/script.js"></script>
+</body>
+
+</html>

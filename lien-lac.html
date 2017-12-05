@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trang liên lạc- PSC</title>
+    <link rel="shortcut icon" type="image/png" href="resources/imgs/favicons-PSC.png" />
+    <!-- Bootstrap -->
+    <link href="vendors/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendors/css/font-awesome.min.css" rel="stylesheet">
+    <!-- smartmenu -->
+    <link rel="stylesheet" type="text/css" href="vendors/css/sm-core-css.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/sm-simple.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style-lien-lac.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    
+    
+
+</head>
+
+<body>
+  
+    <div id="page">
+        <nav id="main-nav" role="navigation" class="navbar-fixed-top">
+            <div class="container">
+                <div class="img-logo col-md-2">
+                    <a href="index.html"><img src="resources/imgs/logo-nav.png"></a>
+                </div>
+                <!-- /.img-logo -->
+                <div class="navbar-header">
+                    <button style="float: left;" id="btn_menu" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar" style="background-color: #fff;"></span>
+                        <span class="icon-bar" style="background-color: #fff;"></span>
+                        <span class="icon-bar" style="background-color: #fff;"></span>
+                    </button>
+                </div>
+                <ul id="main-menu" class="sm sm-simple col-md-8">
+                    <li><a href="#">Giới thiệu</a>
+                    </li>
+                    <li class="father-menu active"><a href="#">Sản phẩm</a>
+                        <ul class="child-menu">
+                            <li><a href="#">Themes</a>
+                            </li>
+                            <li><a href="#">The company</a>
+                                <ul>
+                                    <li><a href="#">About Vadikom</a>
+                                    </li>
+                                    <li><a href="#">Projects</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Khách hàng</a>
+                    </li>
+                    <li ><a href="#">Hoạt động</a>
+                        <ul>
+                            <li><a href="#">Premium support</a>
+                            <ul>
+                                <li><a href="#">About Vadikom</a>
+                                </li>
+                                <li><a href="#">Projects</a>
+                                </li>
+                            </ul>
+                            </li>
+                            <li><a href="#">Forums</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li ><a href="#">Tuyển dụng</a>
+                    </li>
+                    <li><a href="#">Liên lạc</a>
+                    </li>
+                </ul>
+                <div id="language" class="dropdown dropdown-small ">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#" aria-expanded="false">
+                        <img src="resources/imgs/icon-vietnamese.png">
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li>
+                            <a href="#"><img src="resources/imgs/english.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <div style="z-index: 9999;" class="searchbox">
+                        <input type="search" placeholder="Tìm kiếm......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+
+                        <span class="searchbox-icon"><img src="resources/imgs/btn-search.png"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </nav>
+        
+        <div class="iframe" style="width: 100%; overflow: hidden; height: 560px;"> 
+                <div class="information">
+                 
+                      <ul>
+                          <li><i class="fa fa-map-marker"></i><span>40 Phạm Ngọc Thạch, Phường 6, Quận 3, Tp Hồ Chí Minh, Việt Nam</span></li>
+                          <li><i class="fa fa-phone"></i><span>(08) 35173655 - 0903725496</span></li>
+                          <li><i class="fa fa-print"></i><span>(08) 35173655</span></li>
+                          <li><i class="fa fa-envelope-o"></i><span>webmaster@pscvietnam.com</span></li>
+                      </ul>
+                   
+                </div><!-- /.information -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.45694860782!2d106.69350597642826!3d10.784806013880882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f33f3e022fb%3A0x4884602f16822832!2zNDAgUGjhuqFtIE5n4buNYyBUaOG6oWNoLCBwaMaw4budbmcgNiwgUXXhuq1uIDMsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1488506247456" width="600" height="590" frameborder="0" style="border: 0; margin-top:-40px;"></iframe>
+          
+        </div>
+        <!-- /.iframe -->
+        <!-- <div id="map-canvas" style="width: 490px"></div> -->
+        <div class="contact" id="loginForm">
+            <div class="container">
+                <h3>Liên lạc với chúng tôi</h3>
+                <div class="contact-left col-md-6 col-sm-6 col-xs-12">
+                    <div class="full-name">
+                        <p>Họ và tên <span>*</span></p>
+                        <input type="text" name="fullname" onkeyup="Onremovevalidate(this)"  required="required">
+                        <p class="no-empty">Không để trống *</p>
+                    </div><!-- /.ho-ten -->
+                    <div class="email">
+                        <p>Email <span>*</span></p>
+                        <input type="text" name="email" onkeyup="Onremovevalidate(this)" >
+                        <p class="no-empty">Không để trống *</p>
+                    </div>
+                </div><!-- /.contact-left -->
+                <div class="contact-right col-md-6 col-sm-6 col-xs-12">
+                    <div class="unit">
+                        <p>Đơn vị tổ chức <span>*</span></p>
+                        <input type="text" name="unit" onkeyup="Onremovevalidate(this)">
+                        <p class="no-empty">Không để trống *</p>
+                    </div><!-- /.ho-ten -->
+                    <div class="number-phone">
+                        <p>Số điện thoại <span>*</span></p>
+                        <input maxlength="12" class="longboxsmall" name="numberphone" onkeyup="Onremovevalidate(this)" type="tel" data-mask="+99 (9)9 99-99-99-99"" >
+                        <p class="no-empty">Không để trống *</p>
+                    </div>
+                </div><!-- /.contact-left -->
+                <div class="contact-content">
+                    <p>Nội dung liên lạc <span>*</span></p>
+                    <textarea class="text-area" onkeyup="Onremovevalidate(this)" required></textarea>
+                    <p class="no-empty">Không để trống *</p>
+                </div><!-- /.contact-content -->
+                <a href="javascript:void(0)" class="btn sent" id="sendpsc" onclick="OnlickSubmit(this)">Gởi</a>
+            </div><!-- /.container -->
+        </div><!-- /.contact -->
+        <footer>
+            <div class="container">
+                <div class="col-left col-xs-12 col-sm-6 col-md-6">
+                    <div class="img">
+                        <img src="resources/imgs/logo-footer.png">
+                    </div>
+                    <div class="text">
+                        <h2>Pyramid Software & Consulting Ltd.</h2>
+                        <p>Designed and Developed by PSC</p>
+                        <p>Copyright ©2017 by PSC. All rights reserved</p>
+                    </div>
+                </div>
+                <div class="col-right col-xs-12 col-sm-6 col-md-6">
+                    <ul class="list-inline">
+                        <li><a href="#">Đối tác</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Liên lạc</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.container -->
+        </footer>
+    </div>
+    <!-- /.page -->
+
+    <script src="vendors/js/jquery.min.js"></script>
+    <script src="vendors/js/bootstrap.min.js"></script>
+    <!-- smartmenu -->
+    <script type="text/javascript" src="vendors/js/jquery.smartmenus.js"></script>
+    <script type="text/javascript" src="resources/js/script.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.20&sensor=false"></script>
+    <script type="text/javascript" src="resources/js/map.js"></script>
+    <!-- <script type="text/javascript" src="resources/js/jquery.maskedinput.min.js"></script> -->
+    
+</body>
+
+</html>

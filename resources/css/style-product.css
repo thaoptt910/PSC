@@ -1,0 +1,45 @@
+/*01-03-2017*/
+#main-nav {
+    background: url(../imgs/banner-menu-bg.png) !important;
+}
+#main-menu li.active a
+{
+color: #0089d0;
+}
+/*========================content-active=====================*/
+.content-active {
+    margin: 70px 0 60px 0;
+}
+.content-active .menu{
+    padding: 38px 15px 60px 15px;
+    margin-bottom: 0;
+}
+.content-active .menu li a
+{
+    color: #777;
+    font-size: 12px;
+    font-weight: 400;
+}
+.content-active .menu li a:hover
+{
+    color: #0089d0;
+}
+.content-active 
+{
+color: #282828;
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+}
+/*========================/.content-active=====================*/
+/*========================software-solution=====================*/
+.software-solution{
+    padding-top: 0;
+    background: none;
+}
+.software-solution h1
+{
+	margin-top: 0;
+    padding-top: 5px;
+}
+/*========================/.software-solution=====================*/

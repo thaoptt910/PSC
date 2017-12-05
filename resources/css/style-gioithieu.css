@@ -1,0 +1,128 @@
+#main-nav {
+    background: url(../imgs/banner-menu-bg.png) !important;
+}
+#main-menu li.active a
+{
+color: #0089d0;
+}
+.introduce .PSC-solution .text p:nth-child(2),.introduce .PSC-solution .text p:nth-child(3){
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+/*========================content-active=====================*/
+.list-inline>li{
+    padding-right: 4px !important;
+    padding-left: 0 !important;
+}
+.introduce {
+    margin: 70px 0 180px 0;
+}
+.introduce .menu{
+    padding: 38px 15px 60px 15px;
+    margin-bottom: 0;
+}
+.introduce .menu li a
+{
+    color: #777;
+    font-size: 12px;
+    font-weight: 400;
+}
+.introduce .menu li
+{
+    color: #777;
+    font-size: 12px;
+    font-weight: 400;
+}
+.introduce .menu li a:hover
+{
+    color: #0089d0;
+}
+.introduce 
+{
+color: #282828;
+font-size: 25px;
+/*font-weight: 700;*/
+line-height: 30px;
+}
+
+/*.content-active .menu {
+    padding: 38px 15px 60px 15px;
+    margin-bottom: 0;
+}*/
+/*-------------------------gioi thieu-----------------------------*/
+
+.introduce .owl1,
+.introduce .education-solutions , 
+.introduce .enterprise-solutions ,
+.introduce .goverment-solutions ,
+.introduce .security-solutions {
+    width: 100% !important;
+    float: left;
+}
+.introduce p.title
+{
+    color: #606060;
+    font-size: 20px !important;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 45px !important;
+}
+.introduce .education-solutions p, 
+.introduce .enterprise-solutions p,
+.introduce .goverment-solutions p,
+.introduce .security-solutions p
+{
+    color: #606060;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.introduce .education-solutions ul{
+    list-style: decimal !important;
+    color: #0066b3 !important;
+    font-size: 16px !important;
+    font-style: italic !important;
+    margin-bottom: 45px;
+}
+.introduce .education-solutions ul a
+{
+    color: #0066b3 !important;
+    font-size: 16px !important;
+    font-style: italic !important;
+    padding-left: 5px;
+}
+.introduce .enterprise-solutions ul{
+    list-style: decimal !important;
+    margin-bottom: 45px;
+}
+.introduce .enterprise-solutions ul li {
+    color: #606060;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+.PSC-solution {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 0 !important; 
+}
+.PSC-solution h3{
+    margin-top: 0 !important
+}
+#owl-demo .item {
+    margin-bottom: 90px !important;
+}
+.enterprise-solutions,.goverment-solutions,.security-solutions{
+    margin-top: 100px;
+}
+.enterprise-solutions p:nth-child(4){
+    margin-bottom: 45px;
+}
+@media(max-width: 767px){
+    .introduce p.title{
+        font-size: 18px !important;
+    }
+}

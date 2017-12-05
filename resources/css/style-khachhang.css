@@ -1,0 +1,49 @@
+#main-menu li.active a
+{
+color: #0089d0;
+}
+/*========================content-active=====================*/
+.content-active {
+    margin: 70px 0 60px 0;
+}
+.content-active .menu{
+    padding: 38px 15px 60px 15px;
+    margin-bottom: 0;
+}
+.content-active .menu li a
+{
+    color: #777;
+    font-size: 12px;
+    font-weight: 400;
+}
+.content-active .menu li a:hover
+{
+    color: #0089d0;
+}
+.content-active 
+{
+color: #282828;
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+}
+/*-------------------------doitac-----------------------------*/
+.software-solution.doitac {
+    background: none !important;
+    padding-top: 0;
+    width: 100%;
+    float: left;
+}
+.software-solution.doitac h1{
+    margin-top: 0 !important;
+    margin-bottom: 0!important;
+}
+.doitac .image{
+    overflow: hidden;
+}
+.doitac .image img{
+    width:  100%;
+}
+.software-solution.doitac .doitac .item{
+    padding-top: 60px;
+}
